@@ -1,13 +1,12 @@
-# Micro:bit Car
+# HelloBot
 
-Micro:bit Car Extension
+Extension for Yahboom HelloBot
 
 ## License
 
-The MIT License
+MIT
 
 ## Supported targets
 
-* PXT
-* microbit
-
+* for PXT/microbit
+(The metadata above is needed for package search.)
