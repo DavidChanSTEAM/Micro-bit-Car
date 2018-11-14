@@ -1,12 +1,13 @@
 ﻿/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
-load dependency
-"HelloBot": "file:../pxt-hellobot"
+*/
+/*
+Futher modified for educational purpose
 */
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace HelloBot2 {
+namespace Car {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
