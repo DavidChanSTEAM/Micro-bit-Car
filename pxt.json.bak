@@ -1,7 +1,7 @@
 {
-    "name": "HelloBot",
+    "name": "Mirco:bit Car",
     "version": "1.0.0",
-    "description": "Extension for YahBoom HelloBot",
+    "description": "Micro:bit Car Extension",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -13,9 +13,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/HelloBot-strings.json",
-        "_locales/zh-hant/HelloBot-strings.json",
-        "_locales/zh-hk/HelloBot-strings.json"
+        "_locales/zh/strings.json",
+        "_locales/zh-hant/strings.json",
 
     ],
     "testFiles": [
