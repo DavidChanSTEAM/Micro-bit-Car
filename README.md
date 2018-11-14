@@ -8,5 +8,6 @@ The MIT License
 
 ## Supported targets
 
-PXT/microbit
+* PXT
+* microbit
 
