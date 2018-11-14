@@ -1,10 +1,10 @@
-# HelloBot
+# Micro:bit Car
 
-Extension for Yahboom HelloBot
+Micro:bit Car Extension
 
 ## License
 
-MIT
+The MIT License
 
 ## Supported targets
 
