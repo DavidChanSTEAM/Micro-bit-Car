@@ -1,4 +1,4 @@
-# Micro:bit Car2
+# Micro:bit Car
 
 Micro:bit Car Extension
 
