@@ -1,7 +1,7 @@
 {
-    "name": "HelloBot",
+    "name": "Microbit Car",
     "version": "1.0.0",
-    "description": "Extension for YahBoom HelloBot",
+    "description": "Microbit Car Extension",
     "license": "MIT",
     "dependencies": {
         "core": "*",
