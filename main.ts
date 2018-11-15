@@ -204,11 +204,11 @@ namespace Car {
             speed2 = 350
         }
 
-        setPwm(12, 0, speed1);
-        setPwm(13, 0, 0);
+        setPwm(12, 0, 0);
+        setPwm(13, 0, speed1);
 
-        setPwm(15, 0, speed2);
-        setPwm(14, 0, 0);
+        setPwm(15, 0, 0);
+        setPwm(14, 0, speed2);
         //pins.digitalWritePin(DigitalPin.P16, 1);
        // pins.analogWritePin(AnalogPin.P1, 1023-speed); //速度控制
 
@@ -528,8 +528,8 @@ namespace Car {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
-            case CarState.Car_Run: Car_back(speed, speed); break;
-            case CarState.Car_Back: Car_run(speed, speed); break;
+            case CarState.Car_Run: Car_run(speed, speed); break;
+            case CarState.Car_Back: Car_back(speed, speed); break;
             case CarState.Car_Left: Car_left(speed, speed); break;
             case CarState.Car_Right: Car_right(speed, speed); break;
             case CarState.Car_Stop: Car_stop(); break;
@@ -546,8 +546,8 @@ namespace Car {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
-            case CarState.Car_Run: Car_back(speed1, speed2); break;
-            case CarState.Car_Back: Car_run(speed1, speed2); break;
+            case CarState.Car_Run: Car_run(speed1, speed2); break;
+            case CarState.Car_Back: Car_back(speed1, speed2); break;
             case CarState.Car_Left: Car_left(speed1, speed2); break;
             case CarState.Car_Right: Car_right(speed1, speed2); break;
             case CarState.Car_Stop: Car_stop(); break;
