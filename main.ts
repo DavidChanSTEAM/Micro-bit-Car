@@ -310,7 +310,7 @@ namespace Car {
         setPwm(12, 0, 0);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, 0);
+        setPwm(15, 0, 1);
         setPwm(14, 0, 0);
         //pins.digitalWritePin(DigitalPin.P0, 0);
         //pins.digitalWritePin(DigitalPin.P8, 0);
